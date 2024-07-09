@@ -1,0 +1,196 @@
+.text-left
+{
+	text-align: left !important;
+}
+.custom-overlay
+{
+    z-index: 50;
+    background: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.custom-overlay .fa
+{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+    color: #000;
+    font-size: 30px;
+}
+.overflowHidden
+{
+    overflow: hidden;
+}
+#imagePreview
+{
+    height: 147px;
+    width: 147px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+    background-color: #eee;
+}
+#imagePreview.bigPreview
+{
+    height: 190px;
+    width: 190px;
+    margin: 0;
+}
+#imagePreview p
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    top: 30%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+#imagePreview.bigPreview p
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+.invisible
+{
+    visibility: none;
+    height: 0;
+    width: 0;
+}
+.headerPageTitle
+{
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.padding20LeftRight
+{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.capslock
+{
+    text-transform: uppercase;
+}
+.fontSize22
+{
+    font-size: 22px;
+    line-height: 22px !important;
+}
+.borderBlack
+{
+    border: 1px solid #000 !important;
+}
+.fontSize18
+{
+    font-size: 18px;
+    line-height: 22px !important;
+    font-family: calibri;
+}
+.padding5WithBorder
+{
+    padding: 5px;
+    border: 1px solid #000;
+    min-height: 60px;
+}
+.no-padding-right
+{
+    padding-right: 0px !important;
+}
+.no-border
+{
+    border: none !important;
+}
+.text-white
+{
+    color: #fff !important;
+}
+.padding5
+{
+    padding: 5px;
+}
+.noPaddingTop
+{
+    padding-top: 0px;
+}
+.noPaddingBottom
+{
+    padding-bottom: 0px;
+}
+.noPaddingLeft
+{
+    padding-left: 0px;
+}
+.noPaddingRight
+{
+    padding-right: 0px;
+}
+.paddingBottom5
+{
+    padding-bottom: 5px;
+}
+.block
+{
+    display: block;
+}
+.text-underline
+{
+    text-decoration: underline;
+}
+.iradio_minimal-blue.checked.disabled {
+    background-position: -140px 0;
+}
+.border-bottom
+{
+    border-bottom: 1px solid #000;
+}
+.text-bold
+{
+    font-weight: bold;
+}
+.pieLabel div
+{
+    color: #fff !important;
+}
+.legendContainer
+{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+#imageCapture
+{
+    margin: 0 auto;
+}
+#imageSnapshotPreview
+{
+    width: 320px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+#imageSnapshotPreview img
+{
+    width: 100%;
+}
